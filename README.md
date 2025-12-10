@@ -18,7 +18,7 @@ A Knowledge Graph-based product recommendation system that suggests alternative 
 
 ## 🌐 Live Demo
 
-**Deployed App:** [Your Streamlit App URL]
+**Deployed App:** https://shopkeeper-kg-assistant.streamlit.app/
 
 **GitHub Repository:** [Your GitHub Repository URL]
 
