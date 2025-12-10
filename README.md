@@ -20,7 +20,7 @@ A Knowledge Graph-based product recommendation system that suggests alternative 
 
 **Deployed App:** https://shopkeeper-kg-assistant.streamlit.app/
 
-**GitHub Repository:** [Your GitHub Repository URL]
+**GitHub Repository:** https://github.com/Aayushhhhhhhh/shopkeeper-kg-assistant
 
 ---
 
