@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Knowledge Graph for Shopkeeper Product Substitution System",
+    "total_nodes": 24,
+    "total_edges": 38
+  },
+  "nodes": [
+    {
+      "id": "cat_dairy",
+      "type": "category",
+      "data": {
+        "name": "Dairy Products"
+      }
+    },
+    {
+      "id": "cat_milk",
+      "type": "category",
+      "data": {
+        "name": "Milk"
+      }
+    },
+    {
+      "id": "cat_yogurt",
+      "type": "category",
+      "data": {
+        "name": "Yogurt"
+      }
+    },
+    {
+      "id": "cat_snacks",
+      "type": "category",
+      "data": {
+        "name": "Snacks"
+      }
+    },
+    {
+      "id": "cat_biscuits",
+      "type": "category",
+      "data": {
+        "name": "Biscuits"
+      }
+    },
+    {
+      "id": "cat_chips",
+      "type": "category",
+      "data": {
+        "name": "Chips"
+      }
+    },
+    {
+      "id": "brand_amul",
+      "type": "brand",
+      "data": {
+        "name": "Amul"
+      }
+    },
+    {
+      "id": "brand_mother_dairy",
+      "type": "brand",
+      "data": {
+        "name": "Mother Dairy"
+      }
+    },
+    {
+      "id": "brand_nestle",
+      "type": "brand",
+      "data": {
+        "name": "Nestle"
+      }
+    },
+    {
+      "id": "brand_britannia",
+      "type": "brand",
+      "data": {
+        "name": "Britannia"
+      }
+    },
+    {
+      "id": "brand_parle",
+      "type": "brand",
+      "data": {
+        "name": "Parle"
+      }
+    },
+    {
+      "id": "brand_lays",
+      "type": "brand",
+      "data": {
+        "name": "Lays"
+      }
+    },
+    {
+      "id": "prod_amul_gold",
+      "type": "product",
+      "data": {
+        "name": "Amul Gold Milk 1L",
+        "price": 66,
+        "in_stock": true,
+        "attributes": ["full_cream", "pasteurized"]
+      }
+    },
+    {
+      "id": "prod_amul_taaza",
+      "type": "product",
+      "data": {
+        "name": "Amul Taaza Milk 1L",
+        "price": 54,
+        "in_stock": false,
+        "attributes": ["toned", "pasteurized"]
+      }
+    },
+    {
+      "id": "prod_mother_dairy_full",
+      "type": "product",
+      "data": {
+        "name": "Mother Dairy Full Cream 1L",
+        "price": 64,
+        "in_stock": true,
+        "attributes": ["full_cream", "pasteurized"]
+      }
+    },
+    {
+      "id": "prod_nestle_slim",
+      "type": "product",
+      "data": {
+        "name": "Nestle Slim Milk 1L",
+        "price": 58,
+        "in_stock": true,
+        "attributes": ["low_fat", "lactose_free", "pasteurized"]
+      }
+    },
+    {
+      "id": "prod_mother_dairy_toned",
+      "type": "product",
+      "data": {
+        "name": "Mother Dairy Toned Milk 1L",
+        "price": 52,
+        "in_stock": true,
+        "attributes": ["toned", "pasteurized"]
+      }
+    },
+    {
+      "id": "prod_amul_yogurt",
+      "type": "product",
+      "data": {
+        "name": "Amul Yogurt 400g",
+        "price": 45,
+        "in_stock": true,
+        "attributes": ["probiotic", "no_sugar"]
+      }
+    },
+    {
+      "id": "prod_parle_g",
+      "type": "product",
+      "data": {
+        "name": "Parle-G Biscuits 200g",
+        "price": 20,
+        "in_stock": false,
+        "attributes": ["vegetarian", "glucose"]
+      }
+    },
+    {
+      "id": "prod_britannia_marie",
+      "type": "product",
+      "data": {
+        "name": "Britannia Marie Gold 200g",
+        "price": 25,
+        "in_stock": true,
+        "attributes": ["vegetarian", "low_sugar"]
+      }
+    },
+    {
+      "id": "prod_parle_monaco",
+      "type": "product",
+      "data": {
+        "name": "Parle Monaco 200g",
+        "price": 22,
+        "in_stock": true,
+        "attributes": ["vegetarian", "salty"]
+      }
+    },
+    {
+      "id": "prod_britannia_good_day",
+      "type": "product",
+      "data": {
+        "name": "Britannia Good Day 200g",
+        "price": 30,
+        "in_stock": true,
+        "attributes": ["vegetarian", "butter_cookies"]
+      }
+    },
+    {
+      "id": "prod_lays_classic",
+      "type": "product",
+      "data": {
+        "name": "Lays Classic Salted 100g",
+        "price": 20,
+        "in_stock": false,
+        "attributes": ["vegetarian", "salty"]
+      }
+    },
+    {
+      "id": "prod_lays_cream_onion",
+      "type": "product",
+      "data": {
+        "name": "Lays Cream & Onion 100g",
+        "price": 20,
+        "in_stock": true,
+        "attributes": ["vegetarian"]
+      }
+    }
+  ],
+  "edges": [
+    {"from": "prod_amul_gold", "to": "cat_milk", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_amul_taaza", "to": "cat_milk", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_mother_dairy_full", "to": "cat_milk", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_nestle_slim", "to": "cat_milk", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_mother_dairy_toned", "to": "cat_milk", "relation": "IS_A", "weight": 1.0},
+    {"from": "cat_milk", "to": "cat_dairy", "relation": "IS_A", "weight": 1.0},
+    
+    {"from": "prod_amul_yogurt", "to": "cat_yogurt", "relation": "IS_A", "weight": 1.0},
+    {"from": "cat_yogurt", "to": "cat_dairy", "relation": "IS_A", "weight": 1.0},
+    
+    {"from": "prod_parle_g", "to": "cat_biscuits", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_britannia_marie", "to": "cat_biscuits", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_parle_monaco", "to": "cat_biscuits", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_britannia_good_day", "to": "cat_biscuits", "relation": "IS_A", "weight": 1.0},
+    {"from": "cat_biscuits", "to": "cat_snacks", "relation": "IS_A", "weight": 1.0},
+    
+    {"from": "prod_lays_classic", "to": "cat_chips", "relation": "IS_A", "weight": 1.0},
+    {"from": "prod_lays_cream_onion", "to": "cat_chips", "relation": "IS_A", "weight": 1.0},
+    {"from": "cat_chips", "to": "cat_snacks", "relation": "IS_A", "weight": 1.0},
+    
+    {"from": "prod_amul_gold", "to": "brand_amul", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_amul_taaza", "to": "brand_amul", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_amul_yogurt", "to": "brand_amul", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_mother_dairy_full", "to": "brand_mother_dairy", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_mother_dairy_toned", "to": "brand_mother_dairy", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_nestle_slim", "to": "brand_nestle", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_parle_g", "to": "brand_parle", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_parle_monaco", "to": "brand_parle", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_britannia_marie", "to": "brand_britannia", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_britannia_good_day", "to": "brand_britannia", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_lays_classic", "to": "brand_lays", "relation": "HAS_BRAND", "weight": 1.0},
+    {"from": "prod_lays_cream_onion", "to": "brand_lays", "relation": "HAS_BRAND", "weight": 1.0},
+    
+    {"from": "prod_amul_gold", "to": "prod_mother_dairy_full", "relation": "SIMILAR_TO", "weight": 0.9},
+    {"from": "prod_mother_dairy_full", "to": "prod_amul_gold", "relation": "SIMILAR_TO", "weight": 0.9},
+    {"from": "prod_parle_g", "to": "prod_britannia_marie", "relation": "SIMILAR_TO", "weight": 0.8},
+    {"from": "prod_britannia_marie", "to": "prod_parle_g", "relation": "SIMILAR_TO", "weight": 0.8},
+    {"from": "prod_lays_classic", "to": "prod_lays_cream_onion", "relation": "SIMILAR_TO", "weight": 0.95},
+    {"from": "prod_lays_cream_onion", "to": "prod_lays_classic", "relation": "SIMILAR_TO", "weight": 0.95}
+  ]
+}
