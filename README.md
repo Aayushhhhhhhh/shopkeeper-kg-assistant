@@ -508,12 +508,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👨‍💻 Author
 
 **Aayush Sonawane**
@@ -530,14 +524,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/Aayushhhhhhhh/repo/issues) page
-2. Create a new issue with detailed description
-3. Contact: aayushsonawane01@gmail.com
-
----
 
 **Last Updated:** December 2024
