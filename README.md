@@ -516,15 +516,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**Aayush Sonawane**
+- GitHub: [@Aayushhhhhhhh](https://github.com/Aayushhhhhhhh)
+- Email: aayushsonawane01@gmail.com
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Assignment by: [Professor/Course Name]
+- Assignment by: Kruman Corporations
 - Built with: Streamlit, Python
 - Knowledge Graph concepts inspired by graph theory and semantic networks
 
@@ -534,9 +534,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/repo/issues) page
+1. Check the [Issues](https://github.com/Aayushhhhhhhh/repo/issues) page
 2. Create a new issue with detailed description
-3. Contact: your.email@example.com
+3. Contact: aayushsonawane01@gmail.com
 
 ---
 
